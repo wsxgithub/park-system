@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsx.park.system.mapper.parking_system.UserMapper">
+  <resultMap id="BaseResultMap" type="com.wsx.park.system.domain.parking_system.User">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="count" jdbcType="DOUBLE" property="count" />
+    <result column="car_id" jdbcType="VARCHAR" property="carId" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="user_type" jdbcType="VARCHAR" property="userType" />
+    <result column="is_del" jdbcType="TINYINT" property="isDel" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.wsx.park.system.domain.parking_system.User" useGeneratedKeys="true">
+    insert into user (username, password, count, 
+      car_id, phone, user_type, 
+      is_del, create_time, update_time
+      )
+    values (#{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{count,jdbcType=DOUBLE}, 
+      #{carId,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{userType,jdbcType=VARCHAR}, 
+      #{isDel,jdbcType=TINYINT}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.wsx.park.system.domain.parking_system.User">
+    update user
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      count = #{count,jdbcType=DOUBLE},
+      car_id = #{carId,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      user_type = #{userType,jdbcType=VARCHAR},
+      is_del = #{isDel,jdbcType=TINYINT},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, username, password, count, car_id, phone, user_type, is_del, create_time, 
+    update_time
+    from user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, username, password, count, car_id, phone, user_type, is_del, create_time, 
+    update_time
+    from user
+    order by id desc
+  </select>
+</mapper>

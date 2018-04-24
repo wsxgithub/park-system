@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsx.park.system.mapper.parking_system.ParkingSpaceMapper">
+  <resultMap id="BaseResultMap" type="com.wsx.park.system.domain.parking_system.ParkingSpace">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="station_type" jdbcType="VARCHAR" property="stationType" />
+    <result column="station_area" jdbcType="VARCHAR" property="stationArea" />
+    <result column="station_no" jdbcType="INTEGER" property="stationNo" />
+    <result column="is_del" jdbcType="TINYINT" property="isDel" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.wsx.park.system.domain.parking_system.ParkingSpace" useGeneratedKeys="true">
+    insert into parking_space (station_type, station_area, station_no, 
+      is_del, create_time, update_time
+      )
+    values (#{stationType,jdbcType=VARCHAR}, #{stationArea,jdbcType=VARCHAR}, #{stationNo,jdbcType=INTEGER}, 
+      #{isDel,jdbcType=TINYINT}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.wsx.park.system.domain.parking_system.ParkingSpace">
+    update parking_space
+    set station_type = #{stationType,jdbcType=VARCHAR},
+      station_area = #{stationArea,jdbcType=VARCHAR},
+      station_no = #{stationNo,jdbcType=INTEGER},
+      is_del = #{isDel,jdbcType=TINYINT},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, station_type, station_area, station_no, is_del, create_time, update_time
+    from parking_space
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, station_type, station_area, station_no, is_del, create_time, update_time
+    from parking_space
+    order by id desc
+  </select>
+</mapper>
