@@ -6,7 +6,7 @@ import com.wsx.park.system.common.response.Response;
 import com.wsx.park.system.input.AdminLoginInput;
 import com.wsx.park.system.input.AdminRegisterInput;
 import com.wsx.park.system.output.AdminRegisterOutput;
-import com.wsx.park.system.service.impliments.AdminService;
+import com.wsx.park.system.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestBody;

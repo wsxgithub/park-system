@@ -1,6 +1,6 @@
 CREATE TABLE `admin` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `adminname` varchar(30) NOT NULL DEFAULT '' COMMENT '管理员姓名',
+  `admin_name` varchar(30) NOT NULL DEFAULT '' COMMENT '管理员姓名',
   `password` varchar(40) NOT NULL DEFAULT '' COMMENT '密码',
   `is_del` tinyint(4) NOT NULL DEFAULT '0' COMMENT '标记删除',
   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',

@@ -5,7 +5,7 @@ import java.util.Date;
 public class Admin {
     private Integer id;
 
-    private String adminname;
+    private String adminName;
 
     private String password;
 
@@ -23,12 +23,12 @@ public class Admin {
         this.id = id;
     }
 
-    public String getAdminname() {
-        return adminname;
+    public String getAdminName() {
+        return adminName;
     }
 
-    public void setAdminname(String adminname) {
-        this.adminname = adminname == null ? null : adminname.trim();
+    public void setAdminName(String adminName) {
+        this.adminName = adminName == null ? null : adminName.trim();
     }
 
     public String getPassword() {

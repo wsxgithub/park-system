@@ -40,7 +40,7 @@
     from parking_fee
     order by id desc
   </select>
-  <resultMap id="BaseResultMap" type="com,wsx.parksystem.domain.parking_system.ParkingFee">
+  <resultMap id="BaseResultMap" type="com.wsx.park.system.domain.parking_system.ParkingFee">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="park_id" jdbcType="INTEGER" property="parkId" />
     <result column="fee" jdbcType="DOUBLE" property="fee" />

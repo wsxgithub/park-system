@@ -8,12 +8,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AdminDao {
 
-    @Autowired AdminMapper adminMapper;
-    public Admin getAdminPasswordbyId(Integer id) {
+    @Autowired
+    private AdminMapper adminMapper;
+    public Admin getAdminPasswordById(Integer id) {
         return adminMapper.selectByPrimaryKey(id);
     }
 
-    public Integer saveAdimin(Admin admin) {
+    public Integer saveAdmin(Admin admin) {
         return adminMapper.insert(admin);
     }
 }
