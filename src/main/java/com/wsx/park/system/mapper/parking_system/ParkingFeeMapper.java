@@ -14,4 +14,5 @@ public interface ParkingFeeMapper {
     List<ParkingFee> selectAll();
 
     int updateByPrimaryKey(ParkingFee record);
+
 }

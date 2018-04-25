@@ -9,7 +9,7 @@ public class User {
 
     private String password;
 
-    private Double count;
+    private Double countFee;
 
     private String carId;
 
@@ -47,12 +47,12 @@ public class User {
         this.password = password == null ? null : password.trim();
     }
 
-    public Double getCount() {
-        return count;
+    public Double getCountFee() {
+        return countFee;
     }
 
-    public void setCount(Double count) {
-        this.count = count;
+    public void setCountFee(Double countFee) {
+        this.countFee = countFee;
     }
 
     public String getCarId() {

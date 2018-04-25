@@ -17,4 +17,13 @@ public class AdminDao {
     public Integer saveAdmin(Admin admin) {
         return adminMapper.insert(admin);
     }
+
+    public int getNextId() {
+        return adminMapper.getNextId();
+    }
+
+    public Integer deleteAdminById(Admin admin) {
+        return adminMapper.updateByPrimaryKey(admin);
+    }
+
 }

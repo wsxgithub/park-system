@@ -1,10 +1,12 @@
 package com.wsx.park.system.controller;
 
 import com.wsx.park.system.common.ErrorCodeEnum;
+import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
 import com.wsx.park.system.input.AdminLoginInput;
 import com.wsx.park.system.input.AdminRegisterInput;
+import com.wsx.park.system.input.DeleteAdminInput;
 import com.wsx.park.system.output.AdminRegisterOutput;
 import com.wsx.park.system.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,6 +39,16 @@ public class AdminController extends BaseController{
     public Response adminRegister(@RequestBody @Valid AdminRegisterInput input) {
         AdminRegisterOutput output = adminService.saveAdmin(input.getAdminName(), input.getPassword());
         return success(output);
+    }
+
+    @RequestMapping(value = "delete", method = RequestMethod.POST)
+    public Response deleteAdmin(@RequestBody @Valid DeleteAdminInput input) {
+        try {
+            adminService.deleteUser(input.getId());
+            return success();
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
     }
 
 }

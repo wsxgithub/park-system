@@ -1,5 +1,7 @@
 package com.wsx.park.system.service;
 
+import com.wsx.park.system.common.ErrorCodeEnum;
+import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.dao.AdminDao;
 import com.wsx.park.system.domain.parking_system.Admin;
 import com.wsx.park.system.output.AdminRegisterOutput;
@@ -30,8 +32,8 @@ public class AdminService {
         admin.setPassword(passwordAfterEncode);
         admin.setIsDel((byte)0);
 
-        Integer id = adminDao.saveAdmin(admin);
-
+        adminDao.saveAdmin(admin);
+        int id = adminDao.getNextId();
         AdminRegisterOutput output = new AdminRegisterOutput();
         output.setAdminName(adminName);
         output.setId(id);
@@ -39,4 +41,13 @@ public class AdminService {
         return output;
     }
 
+    public void deleteUser(Integer id) throws BusinessException{
+        Admin admin = adminDao.getAdminPasswordById(id);
+        if(admin == null) {
+            throw new BusinessException(ErrorCodeEnum.NOT_EXIST, "用户不存在");
+        } else {
+            admin.setIsDel((byte)1);
+            adminDao.deleteAdminById(admin);
+        }
+    }
 }

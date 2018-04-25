@@ -1,16 +1,18 @@
 package com.wsx.park.system.controller;
 
 import com.wsx.park.system.common.ErrorCodeEnum;
+import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
+import com.wsx.park.system.constants.UserTypeConstants;
+import com.wsx.park.system.domain.parking_system.User;
+import com.wsx.park.system.input.DeleteUserInput;
 import com.wsx.park.system.input.UserLoginInput;
+import com.wsx.park.system.input.UserRegisterInput;
 import com.wsx.park.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
@@ -31,4 +33,40 @@ public class UserController extends BaseController{
         }
     }
 
+    @RequestMapping(value = "register", method = RequestMethod.POST)
+    public Response userRegister(@RequestBody @Valid UserRegisterInput input) {
+        if(input.getUserType().isEmpty()) {
+            input.setUserType(UserTypeConstants.DOMESTIC_USER);
+        }
+        try {
+            User output = userService.saveUser(input);
+            if(output != null) {
+                return success(output);
+            } else {
+                return fail(ErrorCodeEnum.SAVE_FAILURE);
+            }
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
+    }
+
+    @RequestMapping(value = "delete", method = RequestMethod.POST)
+    public Response deleteUser(@RequestBody @Valid DeleteUserInput input) {
+        try {
+            userService.deleteUser(input.getId());
+            return success();
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
+    }
+
+    @RequestMapping(value = "update", method = RequestMethod.POST)
+    public Response updateUser(@RequestBody @Valid UserRegisterInput input) {
+        try {
+            userService.updateUser(input);
+            return success();
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
+    }
 }

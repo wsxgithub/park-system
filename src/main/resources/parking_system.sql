@@ -62,7 +62,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(30) NOT NULL DEFAULT '' COMMENT '用户姓名',
   `password` varchar(40) NOT NULL DEFAULT '' COMMENT '密码',
-  `count` double(10,2) NOT NULL DEFAULT '0.00' COMMENT '账户余额',
+  `count_fee` double(10,2) NOT NULL DEFAULT '0.00' COMMENT '账户余额',
   `car_id` varchar(20) NOT NULL DEFAULT '' COMMENT '车牌号',
   `phone` varchar(13) NOT NULL DEFAULT '' COMMENT '电话号',
   `user_type` varchar(20) NOT NULL DEFAULT '' COMMENT '用户种类',

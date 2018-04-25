@@ -34,4 +34,10 @@
     from admin
     order by id desc
   </select>
+
+  <select id="getNextId" resultType="java.lang.Integer">
+    select id
+    from admin
+    order by id desc limit 1
+  </select>
 </mapper>
