@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.validation.constraints.NotNull;
 
 @Data
-public class DeleteAdminInput {
-    @NotNull(message = "请输入管理员ID")
+public class IdInput {
+    @NotNull(message = "请输入ID")
     private Integer id;
 }

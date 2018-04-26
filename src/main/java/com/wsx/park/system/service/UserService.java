@@ -5,9 +5,12 @@ import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.dao.UserDao;
 import com.wsx.park.system.domain.parking_system.User;
 import com.wsx.park.system.input.UserRegisterInput;
+import com.wsx.park.system.input.UserUpdateInput;
 import com.wsx.park.system.utils.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Date;
 
 @Service
 public class UserService {
@@ -55,19 +58,19 @@ public class UserService {
         }
     }
 
-    public void updateUser(UserRegisterInput input) throws BusinessException {
-        if(userDao.getUserPasswordByPhone(input.getPhone()) == null) {
+    public void updateUser(UserUpdateInput input) throws BusinessException {
+        User user =  userDao.getUserById(input.getId());
+        if(user == null) {
             throw new BusinessException(ErrorCodeEnum.NOT_EXIST, "用户不存在");
         } else {
             String passwordAfterEncode = DigestUtils.encodePassword(input.getPassword());
 
-            User user = new User();
             user.setCarId(input.getCarId());
-            user.setCountFee((double) 0);
             user.setPassword(passwordAfterEncode);
             user.setPhone(input.getPhone());
             user.setUsername(input.getName());
             user.setUserType(input.getUserType());
+            user.setUpdateTime(new Date());
 
             userDao.updateUser(user);
         }

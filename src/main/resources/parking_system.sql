@@ -74,7 +74,15 @@ CREATE TABLE `user` (
   KEY `index_phone` (`phone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
-
-
-
+CREATE TABLE `recharge_history` (
+   `id` int(11) NOT NULL AUTO_INCREMENT,
+   `user_id` int(11) NOT NULL DEFAULT '0' COMMENT '用户ID',
+   `account_fee` double(10,2) NOT NULL DEFAULT '0.00' COMMENT '账户余额',
+   `recharge_fee` double(10,2) NOT NULL DEFAULT '0.00' COMMENT '充值金额',
+   `pay_type` int(11) NOT NULL DEFAULT '0' COMMENT '支付方式',
+   `is_del` tinyint(4) NOT NULL DEFAULT '0' COMMENT '标记删除',
+   `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+   `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+    PRIMARY KEY (`id`),
+    KEY `index_user_id` (`user_id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

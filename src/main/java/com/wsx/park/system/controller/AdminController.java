@@ -6,7 +6,7 @@ import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
 import com.wsx.park.system.input.AdminLoginInput;
 import com.wsx.park.system.input.AdminRegisterInput;
-import com.wsx.park.system.input.DeleteAdminInput;
+import com.wsx.park.system.input.IdInput;
 import com.wsx.park.system.output.AdminRegisterOutput;
 import com.wsx.park.system.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,7 +42,7 @@ public class AdminController extends BaseController{
     }
 
     @RequestMapping(value = "delete", method = RequestMethod.POST)
-    public Response deleteAdmin(@RequestBody @Valid DeleteAdminInput input) {
+    public Response deleteAdmin(@RequestBody @Valid IdInput input) {
         try {
             adminService.deleteUser(input.getId());
             return success();

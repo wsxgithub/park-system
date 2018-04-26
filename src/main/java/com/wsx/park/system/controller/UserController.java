@@ -4,11 +4,12 @@ import com.wsx.park.system.common.ErrorCodeEnum;
 import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
-import com.wsx.park.system.constants.UserTypeConstants;
+import com.wsx.park.system.constants.TypeConstants;
 import com.wsx.park.system.domain.parking_system.User;
-import com.wsx.park.system.input.DeleteUserInput;
+import com.wsx.park.system.input.IdInput;
 import com.wsx.park.system.input.UserLoginInput;
 import com.wsx.park.system.input.UserRegisterInput;
+import com.wsx.park.system.input.UserUpdateInput;
 import com.wsx.park.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -36,7 +37,7 @@ public class UserController extends BaseController{
     @RequestMapping(value = "register", method = RequestMethod.POST)
     public Response userRegister(@RequestBody @Valid UserRegisterInput input) {
         if(input.getUserType().isEmpty()) {
-            input.setUserType(UserTypeConstants.DOMESTIC_USER);
+            input.setUserType(TypeConstants.DOMESTIC_USER);
         }
         try {
             User output = userService.saveUser(input);
@@ -51,7 +52,7 @@ public class UserController extends BaseController{
     }
 
     @RequestMapping(value = "delete", method = RequestMethod.POST)
-    public Response deleteUser(@RequestBody @Valid DeleteUserInput input) {
+    public Response deleteUser(@RequestBody @Valid IdInput input) {
         try {
             userService.deleteUser(input.getId());
             return success();
@@ -61,7 +62,7 @@ public class UserController extends BaseController{
     }
 
     @RequestMapping(value = "update", method = RequestMethod.POST)
-    public Response updateUser(@RequestBody @Valid UserRegisterInput input) {
+    public Response updateUser(@RequestBody @Valid UserUpdateInput input) {
         try {
             userService.updateUser(input);
             return success();

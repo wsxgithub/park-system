@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wsx.park.system.mapper.parking_system.RechargeHistoryMapper">
+  <resultMap id="BaseResultMap" type="com.wsx.park.system.domain.parking_system.RechargeHistory">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="count_fee" jdbcType="DOUBLE" property="countFee" />
+    <result column="recharge_fee" jdbcType="DOUBLE" property="rechargeFee" />
+    <result column="pay_type" jdbcType="INTEGER" property="payType" />
+    <result column="is_del" jdbcType="TINYINT" property="isDel" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.wsx.park.system.domain.parking_system.RechargeHistory" useGeneratedKeys="true">
+    insert into recharge_history (user_id, count_fee, recharge_fee, 
+      pay_type, is_del, create_time, 
+      update_time)
+    values (#{userId,jdbcType=INTEGER}, #{countFee,jdbcType=DOUBLE}, #{rechargeFee,jdbcType=DOUBLE}, 
+      #{payType,jdbcType=INTEGER}, 0, #{createTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.wsx.park.system.domain.parking_system.RechargeHistory">
+    update recharge_history
+    set user_id = #{userId,jdbcType=INTEGER},
+      count_fee = #{countFee,jdbcType=DOUBLE},
+      recharge_fee = #{rechargeFee,jdbcType=DOUBLE},
+      pay_type = #{payType,jdbcType=INTEGER},
+      is_del = #{isDel,jdbcType=TINYINT},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select id, user_id, count_fee, recharge_fee, pay_type, is_del, create_time, update_time
+    from recharge_history
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, user_id, count_fee, recharge_fee, pay_type, is_del, create_time, update_time
+    from recharge_history
+    order by id desc
+  </select>
+  <select id="selectHistoryById" parameterType="com.wsx.park.system.bean.PageHelperBean" resultMap="BaseResultMap">
+    select id, user_id, count_fee, recharge_fee, pay_type, is_del, create_time, update_time
+    from recharge_history
+    where user_id = #{userId,jdbcType=INTEGER}
+    order by id desc
+    limit #{startRow, jdbcType=INTEGER}, #{pageSize, jdbcType=INTEGER}
+  </select>
+</mapper>
