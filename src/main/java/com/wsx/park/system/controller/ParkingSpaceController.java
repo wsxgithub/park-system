@@ -1,17 +1,15 @@
 package com.wsx.park.system.controller;
 
+import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
 import com.wsx.park.system.constants.TypeConstants;
-import com.wsx.park.system.dao.ParkingSpaceDao;
 import com.wsx.park.system.input.AddParkingSpaceInput;
+import com.wsx.park.system.input.UpdateParkingSpaceInput;
 import com.wsx.park.system.service.ParkingSpaceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
@@ -24,7 +22,7 @@ public class ParkingSpaceController extends BaseController {
     private ParkingSpaceService parkingSpaceService;
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public Response addParkingSpace(@RequestBody @Valid AddParkingSpaceInput input) {
+    public Response addParkingSpace(@RequestBody AddParkingSpaceInput input) {
         if(input.getSpaceType().isEmpty()) {
             input.setSpaceType(TypeConstants.COMMON_SPACE);
         }
@@ -38,4 +36,23 @@ public class ParkingSpaceController extends BaseController {
         return success();
     }
 
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public Response updateParkingSpace(@RequestBody @Valid UpdateParkingSpaceInput input) {
+        try {
+            parkingSpaceService.updateParkingSpace(input);
+            return success();
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
+    }
+
+    @RequestMapping(value = "/delete", method = RequestMethod.GET)
+    public Response deleteParkingSpace(@RequestParam Integer id) {
+        try {
+            parkingSpaceService.deleteParkingSpace(id);
+            return success();
+        } catch (BusinessException e) {
+            return fail(e.getErrorCode());
+        }
+    }
 }

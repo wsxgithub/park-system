@@ -1,6 +1,6 @@
 package com.wsx.park.system.mapper.parking_system;
 
-import com.wsx.park.system.bean.PageHelperBean;
+import com.wsx.park.system.bean.ManageBean;
 import com.wsx.park.system.domain.parking_system.RechargeHistory;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -16,5 +16,7 @@ public interface RechargeHistoryMapper {
 
     int updateByPrimaryKey(RechargeHistory record);
 
-    List<RechargeHistory> selectHistoryById(PageHelperBean bean);
+    List<RechargeHistory> selectHistoryById(ManageBean bean);
+
+    int getCountById(Integer userId);
 }

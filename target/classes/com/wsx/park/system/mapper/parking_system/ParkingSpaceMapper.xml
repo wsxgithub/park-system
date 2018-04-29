@@ -23,7 +23,7 @@
     set station_type = #{stationType,jdbcType=VARCHAR},
       station_area = #{stationArea,jdbcType=VARCHAR},
       station_no = #{stationNo,jdbcType=INTEGER},
-      is_del = #{isDel,jdbcType=TINYINT},
+      0,
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}

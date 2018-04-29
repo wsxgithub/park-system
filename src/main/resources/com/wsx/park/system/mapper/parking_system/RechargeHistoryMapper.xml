@@ -40,11 +40,17 @@
     from recharge_history
     order by id desc
   </select>
-  <select id="selectHistoryById" parameterType="com.wsx.park.system.bean.PageHelperBean" resultMap="BaseResultMap">
+  <select id="selectHistoryById" parameterType="com.wsx.park.system.bean.ManageBean" resultMap="BaseResultMap">
     select id, user_id, count_fee, recharge_fee, pay_type, is_del, create_time, update_time
     from recharge_history
     where user_id = #{userId,jdbcType=INTEGER}
     order by id desc
     limit #{startRow, jdbcType=INTEGER}, #{pageSize, jdbcType=INTEGER}
+  </select>
+
+  <select id="getCountById" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+     select count(*)
+    from recharge_history
+    where user_id = #{userId,jdbcType=INTEGER}
   </select>
 </mapper>

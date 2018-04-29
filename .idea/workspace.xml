@@ -2,38 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e7b2f4e-f19f-4555-a934-6ac677e0ac89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/PageHelperBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UserUpdateInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/DeleteUserInput.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/common/ErrorCodeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/common/ErrorCodeEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/AdminController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/pic/test.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nu_pattern_opencv_2_4_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/ChargeRuleBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ChargeRuleController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ChargeRuleDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddChargeRuleInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateChargeRuleInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateParkingSpaceInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/DisplayChargeRuleOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/RechargeRuleHistoryOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ChargeRuleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdLocate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/CarIdLocateTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/bean/PageHelperBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/constants/UserTypeConstants.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/AdminDao.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/AdminDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/AdminService.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/AdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/manageController.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/controller/manageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/RechargeHistoryDao.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/dao/RechargeHistoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/ManageService.class" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/service/ManageService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/park-system.iml" afterPath="$PROJECT_DIR$/park-system.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties" afterPath="$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/parking_system.sql" afterPath="$PROJECT_DIR$/src/main/resources/parking_system.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatisGenerator.properties" afterPath="$PROJECT_DIR$/target/classes/mybatisGenerator.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/UserTypeConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/TypeConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/DeleteAdminInput.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/IdInput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/PageHelperBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/ManageBean.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,21 +56,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java">
+      <file leaf-file-name="ParkController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="352">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java">
+      <file leaf-file-name="CarIdLocate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdLocate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingSpaceController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java">
+      <file leaf-file-name="Mat.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/core/Mat.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="88">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarIdLocateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/CarIdLocateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,93 +104,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingSpaceService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java">
+      <file leaf-file-name="AppletResourceLoader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/applet/AppletResourceLoader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingSpaceDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java">
+      <file leaf-file-name="Imgproc.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/imgproc/Imgproc.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="178" column="42" lean-forward="false" selection-start-line="178" selection-start-column="28" selection-end-line="178" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#32023#32024#0" expanded="true" />
+                <element signature="e#32085#32086#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingSpaceMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml">
+      <file leaf-file-name="Size.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/core/Size.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-              <folding>
-                <marker date="1524726705084" expanded="true" signature="1007:1339" ph="insert into parking_space... " />
-                <marker date="1524726705084" expanded="true" signature="1462:1796" ph="update parki... " />
-                <marker date="1524726705084" expanded="true" signature="1908:2052" ph="select id, s... parking_space" />
-                <marker date="1524726705084" expanded="true" signature="2121:2248" ph="select id, s... parking_space" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddParkingSpaceInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="88">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parking_system.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/parking_system.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="52" column="59" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="52" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/TypeConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RechargeHistoryMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-              <folding>
-                <marker date="1524723389387" expanded="true" signature="1073:1408" ph="insert into recharge_history... " />
-                <marker date="1524723389387" expanded="true" signature="1534:1936" ph="update recha... " />
-                <marker date="1524723389387" expanded="true" signature="2048:2199" ph="select id, u... recharge_history" />
-                <marker date="1524723389387" expanded="true" signature="2268:2402" ph="select id, u... recharge_history" />
-                <marker date="1524723389387" expanded="true" signature="2535:2787" ph="select id, u... recharge_history" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,6 +154,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mybatisG</find>
+      <find>CV_RG</find>
+      <find>GRAY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,23 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ParkMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/ParkSystemApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/impliments/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/impliments/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/AdminServce.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/parking_system/ParkingFeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/parking_system/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingFeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/UserTypeConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/UserRegisterOutput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ParkingFeeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/exception/BusinessException.java" />
@@ -225,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UserUpdateInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UserRegisterInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/UserService.java" />
@@ -233,22 +186,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/IdInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/pageHelper/PageHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeHistoryInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/pageHelperBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/PageHelperBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/TypeConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" />
+        <option value="$PROJECT_DIR$/park-system.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateParkingSpaceInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddChargeRuleInput.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateChargeRuleInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/ChargeRuleBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/DIsplayChargeRuleOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ChargeRuleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ChargeRuleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ChargeRuleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/RechargeRuleHistoryOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/PageHelperBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/constants/TypeConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingSpaceMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/GuessModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdIdentity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdLocate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/CarIdLocateTest.java" />
       </list>
     </option>
   </component>
@@ -312,8 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,13 +306,34 @@
               <item name="park-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="park-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="park-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="park-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="park-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -351,22 +341,82 @@
               <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="park-system" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
-              <item name="park-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="parking_system" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="applet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: nu.pattern:opencv:2.4.9-4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: nu.pattern:opencv:2.4.9-4" type="70bed36:NamedLibraryElementNode" />
+              <item name="opencv-2.4.9-4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: nu.pattern:opencv:2.4.9-4" type="70bed36:NamedLibraryElementNode" />
+              <item name="opencv-2.4.9-4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: nu.pattern:opencv:2.4.9-4" type="70bed36:NamedLibraryElementNode" />
+              <item name="opencv-2.4.9-4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="park-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: nu.pattern:opencv:2.4.9-4" type="70bed36:NamedLibraryElementNode" />
+              <item name="opencv-2.4.9-4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+              <item name="imgproc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -374,7 +424,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Dada/shine" />
+    <property name="last_opened_file_path" value="D:/Dada/delivery-center" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -382,20 +432,27 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\spring\park-system\src\main\resources\com\wsx\park\system\mapper\parking_system" />
-      <recent name="D:\spring\park-system\src\main\resources\com\wsxmapper\parking_system" />
-      <recent name="D:\spring\park-system\src\main\resources" />
-      <recent name="D:\spring\park-system\src\main\resources\wsx\parksystem" />
-      <recent name="D:\spring\park-system\src\main\resources\mapper\parking_system" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wsx.park.system.input" />
+      <recent name="com.wsx.park.system.output" />
+      <recent name="com.wsx.park.system.dao" />
+      <recent name="com.wsx.park.system.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wsx.park.system.mapper.parking_system" />
       <recent name="com.wsx.park.system.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring\park-system\src\test\java\com\wsx\park\system\utils" />
+      <recent name="D:\spring\park-system\src\main\resources\static\pic" />
       <recent name="D:\spring\park-system\src\main\java\com\wsx\park\system" />
       <recent name="D:\spring\park-system\src\main\resources" />
     </key>
@@ -403,11 +460,12 @@
       <recent name="com.wsx.park.system.input" />
       <recent name="com.wsx.park.system.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wsx.park.system.input" />
-      <recent name="com.wsx.park.system.output" />
-      <recent name="com.wsx.park.system.dao" />
-      <recent name="com.wsx.park.system.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\spring\park-system\src\main\resources\com\wsx\park\system\mapper\parking_system" />
+      <recent name="D:\spring\park-system\src\main\resources\com\wsxmapper\parking_system" />
+      <recent name="D:\spring\park-system\src\main\resources" />
+      <recent name="D:\spring\park-system\src\main\resources\wsx\parksystem" />
+      <recent name="D:\spring\park-system\src\main\resources\mapper\parking_system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,7 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ParkSystemApplication">
+  <component name="RunManager" selected="JUnit.CarIdLocateTest">
     <configuration name="AdminDaoTest.testSaveAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +494,56 @@
       <option name="PACKAGE_NAME" value="com.wsx.park.system.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wsx.park.system.dao.AdminDaoTest" />
       <option name="METHOD_NAME" value="testSaveAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CarIdLocateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wsx.park.system.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="park-system" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wsx.park.system.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.wsx.park.system.utils.CarIdLocateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CarIdLocateTest.testCarIdLocate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wsx.park.system.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="park-system" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wsx.park.system.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.wsx.park.system.utils.CarIdLocateTest" />
+      <option name="METHOD_NAME" value="testCarIdLocate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -560,15 +668,19 @@
       <envs />
       <patterns />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ParkSystemApplication" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AdminDaoTest.testSaveAdmin" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.wsx.parksystem.mapper in park-system" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CarIdLocateTest.testCarIdLocate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CarIdLocateTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.wsx.parksystem.mapper in park-system" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AdminDaoTest.testSaveAdmin" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CarIdLocateTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CarIdLocateTest.testCarIdLocate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.wsx.parksystem.mapper in park-system" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AdminDaoTest.testSaveAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -589,13 +701,25 @@
       <workItem from="1524534126921" duration="22135000" />
       <workItem from="1524577913377" duration="1931000" />
       <workItem from="1524620371274" duration="9624000" />
-      <workItem from="1524705187580" duration="14999000" />
+      <workItem from="1524705187580" duration="20919000" />
+      <workItem from="1524794617597" duration="14421000" />
+      <workItem from="1524903742370" duration="3574000" />
+      <workItem from="1524967230801" duration="9069000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="AdminDaoTest_testSaveAdmin - 2018.04.24 at 16h 49m 44s.xml">
       <configuration name="AdminDaoTest.testSaveAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarIdLocateTest - 2018.04.29 at 15h 16m 41s.xml">
+      <configuration name="CarIdLocateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarIdLocateTest - 2018.04.29 at 15h 18m 29s.xml">
+      <configuration name="CarIdLocateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarIdLocateTest_testCarIdLocate - 2018.04.29 at 15h 15m 27s.xml">
+      <configuration name="CarIdLocateTest.testCarIdLocate" configurationId="JUnit" />
     </history-entry>
     <history-entry file="wsx_parksystem_mapper_in_park-system - 2018.04.24 at 21h 58m 31s.xml">
       <configuration name="wsx.parksystem.mapper in park-system" configurationId="JUnit" />
@@ -605,7 +729,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74885000" />
+    <option name="totallyTimeSpent" value="107869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,27 +751,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.542024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3962264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34991422" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39108062" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,218 +782,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wsx/park/system/ParkSystemApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/AdminServce.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524488922832" expanded="true" signature="1201:1660" ph="insert into park... " />
-            <marker date="1524488922832" expanded="true" signature="1775:2276" ph="update park " />
-            <marker date="1524488922832" expanded="true" signature="2388:2560" ph="select id, u... park" />
-            <marker date="1524488922832" expanded="true" signature="2629:2784" ph="select id, u... park" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/parking_system/AdminMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/domain/parking_system/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ParkingFeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <marker date="1524639534976" expanded="true" signature="1046:1389" ph="insert into parking_fee... " />
-            <marker date="1524639534976" expanded="true" signature="1510:1895" ph="update parki... " />
-            <marker date="1524639534976" expanded="true" signature="2007:2146" ph="select id, p... parking_fee" />
-            <marker date="1524639534976" expanded="true" signature="2215:2337" ph="select id, p... parking_fee" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/UserRegisterOutput.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/parking/system/mapper/parking_system/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ParkingFeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-          <folding>
-            <marker date="1524650414244" expanded="true" signature="1172:1578" ph="insert into user... " />
-            <marker date="1524650414244" expanded="true" signature="1693:2165" ph="update user " />
-            <marker date="1524650414244" expanded="true" signature="2277:2434" ph="select id, u... user" />
-            <marker date="1524650414244" expanded="true" signature="2503:2643" ph="select id, u... user" />
-            <marker date="1524650414244" expanded="true" signature="2718:2770" ph="select id fr... user" />
-            <marker date="1524650414244" expanded="true" signature="2877:3022" ph="select id, u... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/domain/parking_system/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#309#310#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/ErrorCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <marker date="1524647603869" expanded="true" signature="900:1156" ph="insert into admin... " />
-            <marker date="1524647603869" expanded="true" signature="1272:1570" ph="update admin... " />
-            <marker date="1524647603869" expanded="true" signature="1682:1800" ph="select id, a... admin" />
-            <marker date="1524647603869" expanded="true" signature="1869:1970" ph="select id, a... admin" />
-            <marker date="1524647603869" expanded="true" signature="2045:2098" ph="select id fr... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UserUpdateInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/parking/system/mapper/parking_system/RechargeHistoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/parking/system/mapper/parking_system/RechargeHistoryMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UserRegisterInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,23 +806,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/DeleteUserInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/DeleteUserInput.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/IdInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,27 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#786#787#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1391">
-          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="54" column="56" lean-forward="false" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,83 +839,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/pageHelper/PageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeHistoryInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/common/pageHelper/PageHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeHistoryInput.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/RechargeInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/PageHelperBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <marker date="1524723389387" expanded="true" signature="1073:1408" ph="insert into recharge_history... " />
-            <marker date="1524723389387" expanded="true" signature="1534:1936" ph="update recha... " />
-            <marker date="1524723389387" expanded="true" signature="2048:2199" ph="select id, u... recharge_history" />
-            <marker date="1524723389387" expanded="true" signature="2268:2402" ph="select id, u... recharge_history" />
-            <marker date="1524723389387" expanded="true" signature="2535:2787" ph="select id, u... recharge_history" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,23 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parking_system.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="52" column="59" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="52" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,36 +868,301 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="797">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ParkingSpaceService.java">
+    <entry file="file://$PROJECT_DIR$/park-system.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ParkingSpaceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddParkingSpaceInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateParkingSpaceInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkingSpaceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="110">
+          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/parking_system.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatisGenerator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/UpdateChargeRuleInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/ManageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/bean/ChargeRuleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/input/AddChargeRuleInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <marker date="1524821192816" expanded="true" signature="1003:1311" ph="insert into charge_rule... " />
+            <marker date="1524821192816" expanded="true" signature="1432:1799" ph="update charg... " />
+            <marker date="1524821192816" expanded="true" signature="1911:2054" ph="select id, u... charge_rule" />
+            <marker date="1524821192816" expanded="true" signature="2123:2249" ph="select id, u... charge_rule" />
+            <marker date="1524821192816" expanded="true" signature="2387:2591" ph="select id, u... charge_rule" />
+            <marker date="1524821192816" expanded="true" signature="2666:2730" ph="select count... charge_rule" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/ChargeRuleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/ChargeRuleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="54" column="56" lean-forward="false" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/manageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="41" column="29" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ChargeRuleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ManageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/dao/RechargeHistoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wsx/park/system/mapper/parking_system/RechargeHistoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <marker date="1524828219851" expanded="true" signature="1073:1408" ph="insert into recharge_history... " />
+            <marker date="1524828219851" expanded="true" signature="1534:1936" ph="update recha... " />
+            <marker date="1524828219851" expanded="true" signature="2048:2199" ph="select id, u... recharge_history" />
+            <marker date="1524828219851" expanded="true" signature="2268:2402" ph="select id, u... recharge_history" />
+            <marker date="1524828219851" expanded="true" signature="2531:2783" ph="select id, u... recharge_history" />
+            <marker date="1524828219851" expanded="true" signature="2896:2984" ph="select count... recharge_history" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/RechargeRuleHistoryOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/output/DisplayChargeRuleOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/service/ChargeRuleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/system/EasyPR-Java/src/org/easypr/test/EasyPrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/core/Size.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/imgproc/Imgproc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="178" column="42" lean-forward="false" selection-start-line="178" selection-start-column="28" selection-end-line="178" selection-end-column="42" />
+          <folding>
+            <element signature="e#32023#32024#0" expanded="true" />
+            <element signature="e#32085#32086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdIdentity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/controller/ParkController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/nu/pattern/opencv/2.4.9-4/opencv-2.4.9-4.jar!/org/opencv/core/Mat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/test.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/jre/lib/rt.jar!/sun/applet/AppletResourceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wsx/park/system/utils/CarIdUtils/CarIdLocate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/pic/test.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wsx/park/system/utils/CarIdLocateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1097,9 +1172,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>park-system</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

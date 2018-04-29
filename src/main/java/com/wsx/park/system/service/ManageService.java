@@ -1,7 +1,6 @@
 package com.wsx.park.system.service;
 
-import com.github.pagehelper.PageHelper;
-import com.wsx.park.system.bean.PageHelperBean;
+import com.wsx.park.system.bean.ManageBean;
 import com.wsx.park.system.common.ErrorCodeEnum;
 import com.wsx.park.system.common.exception.BusinessException;
 import com.wsx.park.system.dao.RechargeHistoryDao;
@@ -43,8 +42,12 @@ public class ManageService {
     }
 
     public List<RechargeHistory> getRechargeHistory(Integer userId, Integer pageSize, Integer pageNum) {
-        PageHelperBean bean = new PageHelperBean(userId, pageSize, pageNum);
+        ManageBean bean = new ManageBean(userId, pageSize, pageNum);
         List<RechargeHistory> historyList = rechargeHistoryDao.getRechargeHistory(bean);
         return historyList;
+    }
+
+    public int getCountById(Integer userId) {
+        return rechargeHistoryDao.getCountById(userId);
     }
 }

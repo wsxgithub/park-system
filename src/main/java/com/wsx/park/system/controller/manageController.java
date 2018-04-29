@@ -5,6 +5,7 @@ import com.wsx.park.system.common.mvc.BaseController;
 import com.wsx.park.system.common.response.Response;
 import com.wsx.park.system.domain.parking_system.RechargeHistory;
 import com.wsx.park.system.input.RechargeInput;
+import com.wsx.park.system.output.RechargeRuleHistoryOutput;
 import com.wsx.park.system.service.ManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -33,8 +34,12 @@ public class manageController extends BaseController {
 
     @RequestMapping(value = "/get/recharge/history", method = RequestMethod.GET)
     public Response getRechargeHistory(@RequestParam Integer userId, Integer pageSize, Integer pageNum) {
-            List<RechargeHistory> historyList = manageService.getRechargeHistory(userId, pageSize, pageNum);
-            return success(historyList);
+        List<RechargeHistory> historyList = manageService.getRechargeHistory(userId, pageSize, pageNum);
+        RechargeRuleHistoryOutput output = new RechargeRuleHistoryOutput();
+        output.setTotalCount(manageService.getCountById(userId));
+        output.setRechargeHistoryList(historyList);
+        output.setPageCount(historyList.size());
+        return success(output);
     }
 
 
